@@ -1,0 +1,36 @@
+{
+    "name" : "Neumorphic Currency Exchange Rate Converter Progressive Web Application",
+    "short_name" : "Neumorphic Currency Converter PWA",
+    "start_url" : "/currency-exchange-converter.netlify.app",
+    "background_color" : "#f8f8f8",
+    "theme_color": "#3633f3",
+    "display" : "standalone",
+    "orientation" : "portrait",
+    "icons" : [
+        {
+            "src": "img/logo-192.svg",
+            "sizes": "192x192",
+            "type" : "image/png"
+        },
+        {
+            "src": "img/logo-152.svg",
+            "sizes": "152x152",
+            "type" : "image/png"
+        },
+        {
+            "src": "img/logo-48.svg",
+            "sizes": "48x48",
+            "type" : "image/png"
+        },
+        {
+            "src": "img/logo-32.svg",
+            "sizes": "32x32",
+            "type" : "image/png"
+        },
+        {
+            "src": "img/logo-16.svg",
+            "sizes": "16x16",
+            "type" : "image/png"
+        }
+    ]
+}

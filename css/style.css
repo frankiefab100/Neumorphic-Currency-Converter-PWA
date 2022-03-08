@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #222;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+body::before {
+  position: absolute;
+  content: "";
+  background-image: url(../img/currency-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.45;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+
+.title {
+  color: #03014d;
+  text-shadow: -1px -1px 2px #fff, 2px 2px 2px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.exchange-rate {
+  margin: 25px 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.currency-converter {
+  background-color: #f8f8f8;
+  box-shadow: -2px -2px 8px #fff, 2px 2px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 25px;
+  min-width: 350px;
+  width: 100%;
+  height: auto;
+}
+
+label,
+.rate-heading {
+  color: #2e2e2e;
+  font-family: "Merriweather", serif;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  background-color: #f8f8f8;
+  box-shadow: inset -2px -2px 8px #fff, inset 2px 2px 8px rgba(0, 0, 0, 0.4);
+  border: 1px solid #b8b8b8;
+  border-radius: 5px;
+  outline: none;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+input:focus {
+  border: 1px solid #3633f3;
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #ffffff73;
+}
+
+.choose-currency {
+  display: flex;
+  align-items: center;
+}
+
+.select-field {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+option {
+  background-color: #3633f3;
+  color: #f6f6f6;
+}
+
+.fa-exchange-alt {
+  cursor: pointer;
+  margin: 15px 20px 0;
+}
+
+#from,
+#to {
+  padding: 8px;
+}
+
+#convert-btn {
+  background: linear-gradient(to bottom, #3633f3, #120fb9);
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 5px #7e98f6, -5px -5px 10px #8cc2ff73;
+  border-radius: 5px;
+  color: #f6f6f6;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 12px 80px;
+  transition: all 0.3s ease-in;
+}
+
+#convert-btn:hover {
+  background-color: #120fb9;
+  box-shadow: inset 2px 2px 5px #466dfa, inset -5px -5px 10px #2f87ec73;
+}

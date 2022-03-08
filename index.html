@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Neumorphic Currency Exchange Rate Converter Progressive Web Application"
+    />
+    <meta name="theme-color" content="#3633f3" />
+    <link rel="apple-touch-icon" href="./img/favicon.png" />
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link rel="manifest" href="./manifest.json" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=OpenSans:wght@400;500;600;700&family=Merriweather:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicons -->
+    <link rel="icon" sizes="16x16" href="./img/logo-16.svg" />
+    <link rel="icon" sizes="32x32" href="./img//logo-32.svg" />
+    <link rel="icon" sizes="48x48" href="./img//logo-48.svg" />
+    <link rel="icon" sizes="152x152" href="./img/logo-152.svg" />
+    <link rel="icon" sizes="192x192" href="./img/logo-192.svg" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Neumorphic Currency Converter PWA</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="converter-app">
+        <form class="currency-converter">
+          <h1 class="title">Currency Converter</h1>
+
+          <div class="exchange-rate">
+            <span class="rate-heading">Exchange Rate</span>
+            <h2 class="rate-value">$2000</h2>
+          </div>
+
+          <label for="amount">Amount</label>
+          <input type="number" name="amount" id="amount" min="0" />
+
+          <div class="choose-currency">
+            <div class="select-field">
+              <label for="">From</label>
+              <select name="currencies" id="from" autocomplete="on">
+                <!-- <option value="NGN">NGN</option>-->
+              </select>
+            </div>
+
+            <i id="swap-btn" class="fas fa-exchange-alt"></i>
+
+            <div class="select-field">
+              <label for="">To</label>
+              <select name="currencies" id="to" autocomplete="on">
+                <!-- <option value="USD">USD</option>-->
+              </select>
+            </div>
+          </div>
+
+          <button id="convert-btn">Convert</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/currencysymbols.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

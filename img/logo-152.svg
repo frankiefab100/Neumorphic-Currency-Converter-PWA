@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="152px" height="152px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 32.73 32.73"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:#7E98F6}
+    .fil4 {fill:url(#id0)}
+    .fil6 {fill:url(#id1)}
+    .fil3 {fill:url(#id2)}
+    .fil5 {fill:url(#id3)}
+    .fil0 {fill:url(#id4)}
+    .fil1 {fill:url(#id5)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="18.32" y1="8.06" x2="18.92" y2="8.98">
+   <stop offset="0" style="stop-opacity:1; stop-color:#3887FE"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#043BA7"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="18.32" y1="24.13" x2="18.92" y2="25.04">
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="15.25" y1="8.06" x2="15.85" y2="8.98">
+  </linearGradient>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="15.25" y1="24.13" x2="15.85" y2="25.04">
+  </linearGradient>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" x1="-18.01" y1="-20.02" x2="31.46" y2="34.91">
+   <stop offset="0" style="stop-opacity:1; stop-color:#FEFEFE"/>
+   <stop offset="0.760784" style="stop-opacity:1; stop-color:#F2F3F3"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#E6E7E8"/>
+  </linearGradient>
+  <linearGradient id="id5" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="17.1" y1="13.29" x2="21.14" y2="23.53">
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2334816623888">
+   <rect class="fil0" width="32.73" height="32.73" rx="10.35" ry="10.35"/>
+   <g>
+    <polygon class="fil1" points="17.1,13.29 6.88,23.53 21.14,23.53 21.14,19.29 15.72,19.29 25.94,9.06 11.68,9.06 11.68,13.29 "/>
+    <path class="fil2" d="M10.59 3.51l-4.9 5.23c-0.56,0.59 -0.96,1.18 -1.18,1.77 -0.21,0.6 -0.32,1.35 -0.32,2.28l0 1.71 -3.06 0 6.26 6.68 6.27 -6.68 -3.07 0 0 -10.99z"/>
+    <g>
+     <g>
+      <polygon class="fil3" points="16,7.49 14.74,7.49 14.74,9.09 16,9.09 "/>
+      <polygon class="fil4" points="19.07,7.49 17.8,7.49 17.8,9.09 19.07,9.09 "/>
+     </g>
+     <g>
+      <polygon class="fil5" points="16,23.55 14.74,23.55 14.74,25.15 16,25.15 "/>
+      <polygon class="fil6" points="17.8,23.55 17.8,25.15 19.07,25.15 19.07,23.55 "/>
+     </g>
+    </g>
+    <path class="fil2" d="M28.54 29.21l-4.91 -5.22c-0.56,-0.59 -0.95,-1.18 -1.17,-1.77 -0.22,-0.6 -0.32,-1.35 -0.32,-2.28l0 -1.71 -3.07 0 6.27 -6.68 6.26 6.68 -3.06 0 0 10.98z"/>
+   </g>
+  </g>
+ </g>
+</svg>
