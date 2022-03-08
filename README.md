@@ -1,7 +1,7 @@
 # Neumorphic-Currency-Converter-PWA
 
 <p align="left">
-<img src="https://img.shields.io/github/repo-size/Neumorphic-Currency-Converter-PWA?color=green&label=project%20size" />
+<img src="https://img.shields.io/github/repo-size/frankiefab100/Neumorphic-Currency-Converter-PWA?color=green&label=project%20size" />
 
 
 <a href="https://app.netlify.com/sites/currency-exrate-converter/deploys">
@@ -13,9 +13,9 @@
 </p>
 
 <p align="center">
-<img src="https://forthebadge.com/images/badges/built-with-love.svg" width="80px" />
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" width="100px" />
 
-<img src="https://forthebadge.com/images/badges/open-source.svg" width="80px" />
+<img src="https://forthebadge.com/images/badges/open-source.svg" width="100px" />
 </p>
 
 [!Screenshot Here]()
