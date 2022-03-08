@@ -3,4 +3,4 @@ A Currency Converter Progressive Web Application for deriving exchange rates of 
 
 [!Screenshot Here]()
 
-[Design Inspiration](https://dribbble.com/)
+[Design Inspiration](https://dribbble.com/shots/4771831-Simple-currency-converter)
