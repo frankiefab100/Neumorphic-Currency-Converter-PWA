@@ -1,7 +1,7 @@
 {
     "name" : "Neumorphic Currency Exchange Rate Converter Progressive Web Application",
     "short_name" : "Neumorphic Currency Converter PWA",
-    "start_url" : "/currency-exchange-converter.netlify.app",
+    "start_url" : "/currency-exrate-converter.netlify.app",
     "background_color" : "#f8f8f8",
     "theme_color": "#3633f3",
     "display" : "standalone",
