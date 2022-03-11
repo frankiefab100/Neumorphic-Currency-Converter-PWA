@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;500;700&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,7 +23,7 @@ body::before {
   background-image: url(../img/currency-bg.jpg);
   background-position: center;
   background-size: cover;
-  opacity: 0.45;
+  opacity: 0.75;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,7 +47,7 @@ body::before {
 
 .currency-converter {
   background: #ecebeb;
-  box-shadow: inset 8px 8px 5px #d4d4d4, inset -8px -8px 5px #fff;
+  box-shadow: inset 8px 8px 5px #bbbbbb, inset -8px -8px 5px #dfddfd;
   border-radius: 5px;
   position: relative;
   display: flex;
