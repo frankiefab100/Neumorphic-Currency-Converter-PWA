@@ -177,37 +177,10 @@ convertBtn.addEventListener("click", (e) => {
   displayExchangeRate();
 });
 
-// Fetch Currencies from Exchange rate API
-// fetch("https://www.exchangerate-api.com/docs/supported-currencies")
-//   .then((response) => response.json())
-//   .then((data) => displayOption(data));
-
-// function displayOption(data) {
-//   const selection = Object.entries(data);
-
-//   for (let i = 0; i < selection.length; i++) {
-//     selectElem[0].innerHTML += `<option value="${selection[i][0]}">${selection[i][0]}</option>`;
-//     selectElem[1].innerHTML += `<option value="${selection[i][0]}">${selection[i][0]}</option>`;
-//   }
-// }
-
-// Fetch Hardcoded Currencies from array
-// selectElems.forEach((option) => {
-//   const selection = Object.entries(data);
-
-//   for (let i = 0; i < selection.length; i++) {
-//     option[0].innerHTML += `<option value="${selection[i][0]}">${selection[i][0]}</option>`;
-//     option[1].innerHTML += `<option value="${selection[i][0]}">${selection[i][0]}</option>`;
-//   }
-// });
-
 for (let i = 0; i < selectElems.length; i++) {
   for (currencycode in currencies) {
     let option = `<option value="${currencycode}">${currencycode}</option>`;
     selectElems[i].insertAdjacentHTML("beforeend", option);
-
-    // selectElems[0].innerHTML += `<option value="${currencycode}">${currencycode}</option>`;
-    // selectElems[1].innerHTML += `<option value="${currencycode}">${currencycode}</option>`;
   }
 }
 
@@ -222,7 +195,6 @@ function displayExchangeRate() {
       return response.json();
     })
     .then((data) => {
-      // console.log(data);
       let exchangeRate = data.conversion_rates[selectTo.value];
       let overallValue = (inputValue * exchangeRate).toFixed(2);
       rateValue.innerHTML = `${overallValue} ${selectTo.value}`;
