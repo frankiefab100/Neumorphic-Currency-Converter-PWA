@@ -9,7 +9,7 @@
 </a>
 </p>
 
-<p align="center">A Currency Converter Progressive Web Application for deriving exchange rates of over 100 global currencies.
+<p align="center">A Currency Converter Progressive Web Application for deriving exchange rates of over 160 global currencies using `exchangerate-api.com` API.
 </p>
 
 <p align="center">
@@ -36,8 +36,7 @@
 │   ├── logo-192.svg
 │   ├── logo.png
 ├── js
-│   ├── currencysymbols.js
-│   ├── script.js
+│   ├── main.js
 ├── index.html
 ├── manifest.json
 ├── README.md
