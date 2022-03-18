@@ -23,7 +23,6 @@ body::before {
   background-image: url(../img/currency-bg.jpg);
   background-position: center;
   background-size: cover;
-  opacity: 0.75;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -48,6 +47,7 @@ body::before {
 .currency-converter {
   background: #ecebeb;
   box-shadow: inset 8px 8px 5px #bbbbbb, inset -8px -8px 5px #dfddfd;
+  border: 4px double #03014d;
   border-radius: 5px;
   position: relative;
   display: flex;
