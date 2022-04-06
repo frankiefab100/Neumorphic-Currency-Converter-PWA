@@ -16,7 +16,8 @@
 <p align="center">A Currency Converter Progressive Web Application for deriving exchange rates of over 160 global currencies using exchangerate-api.com API.
 </p>
 
-![currency converter](https://user-images.githubusercontent.com/46662771/158808078-b81999e5-3990-4e84-b08c-60c7aea316e2.JPG)
+![currency-converter](https://user-images.githubusercontent.com/46662771/162018458-87a24f56-fbf6-4060-9c54-8e8f54af050f.JPG)
+
 
 <hr />
 
