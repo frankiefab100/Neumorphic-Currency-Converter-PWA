@@ -196,7 +196,7 @@ function displayExchangeRate() {
     })
     .then((data) => {
       let exchangeRate = data.conversion_rates[selectTo.value];
-      let overallValue = (inputValue * exchangeRate).toFixed(2);
+      let overallValue = (inputValue * exchangeRate).toLocaleString();
       rateValue.innerHTML = `${overallValue} ${selectTo.value}`;
     })
     .catch((err) => {
